@@ -107,8 +107,8 @@ tfoot td, table th {
 
 /*Classes e Ids*/
 .main-bg {
-    background-image: url(/assets/img/endless-constellation.svg);
-    /*background-size: cover;*/
+    background-image: url(/img/endless-constellation.svg);
+    /*background-size: cover;/ #330033 */
     background-position: center center;
     color: var(--white-color);
 }
@@ -152,20 +152,30 @@ tfoot td, table th {
     padding-bottom: 0;
 }
 
+@font-face {
+	font-family: "Bebas Neue";
+	font-style: normal;
+	font-weight: 400;
+	src: local('Bebas Neue'), url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap') format('woff');
+	}
+
 .menu .logo-content {
     margin-top: 1.5rem;
     line-height: 2.5rem;
     text-align: center;
     color: #050505bd;
+    text-align: center;
 }
 
 .menu .logo-content h1 {
-    font-size: 3.7rem;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
 
 }
 
 .menu .logo-content p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
