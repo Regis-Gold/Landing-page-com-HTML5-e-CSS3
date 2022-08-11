@@ -107,7 +107,7 @@ tfoot td, table th {
 
 /*Classes e Ids*/
 .main-bg {
-    background-image: url(/img/endless-constellation.svg);
+    background-image: url(/assets/img/endless-constellation.svg);
     /*background-size: cover;*/
     background-position: center center;
     color: var(--white-color);
